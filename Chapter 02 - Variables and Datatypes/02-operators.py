@@ -29,3 +29,11 @@ bool_2 = False
 print("The value of bool 1 and bool 2 is", (bool_1 and bool_2))
 print("The value of bool 1 and bool 2 is", (bool_1 or bool_2))
 print("The value of not bool 2 is", (not bool_2))
+
+# Almost any value is evaluated to True if it has some sort of content.
+
+# Any string is True, except empty strings.
+
+# Any number is True, except 0.
+
+# Any list, tuple, set, and dictionary are True, except empty ones.
